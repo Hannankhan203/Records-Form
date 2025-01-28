@@ -15,12 +15,38 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 6rem;
     padding: 20px;
 }
 
+.nav {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    justify-content: start;
+}
+
+.nav-list {
+    width: 100%;
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 h1 {
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 .form {
@@ -31,7 +57,7 @@ h1 {
     justify-content: center;
     gap: 3rem;
     width: 50%;
-    height: 80vh;
+    height: 70vh;
     padding: 20px;
 }
 
@@ -135,4 +161,8 @@ li {
 
 .edit-record:focus {
     outline: none;
+}
+
+.hide {
+    display: none;
 }
